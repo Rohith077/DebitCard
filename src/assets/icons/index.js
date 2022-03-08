@@ -7,8 +7,8 @@ import Payments from './payments.png';
 import PickupCar from './pickupCar.png';
 import Symbol from './symbol.png';
 import Transfer from './Transfer.png';
-import Transfer1 from './Transfer1.png'; 
-import Transfer2 from './Transfer2.png';
+import Transfer1 from './Transfer-1.png';
+import Transfer2 from './Transfer-2.png';
 import User from './user.png';
 
 export const Icons = {

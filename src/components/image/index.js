@@ -1,10 +1,19 @@
 import React from 'react';
-import { View ,Text } from 'react-native';
+import { View , Image as ImageCmp } from 'react-native';
 
-export const ImageCmp = () => {
+export const Image = (props) => {
+  const {src, width, height} = props;
+
   return (
       <View>
-          <Text>ImageCmp</Text>
+        <ImageCmp
+          style={{width:width, height:height}}
+          source={src}
+        />
       </View>
   );
 };
+
+
+
+

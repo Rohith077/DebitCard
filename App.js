@@ -1,14 +1,11 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import { DebitCardScreen } from './src/screens/debitCard';
 
-const App = () => {
+export default function App () {
   return (
-    <SafeAreaView>
-      <Text>Hello World</Text>
-    </SafeAreaView>
+    <>
+      <DebitCardScreen />
+    </>
   );
-};
+}
 
-const styles = StyleSheet.create({});
-
-export default App;
